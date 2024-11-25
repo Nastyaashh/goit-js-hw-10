@@ -56,4 +56,28 @@
 .btn:focus,
 .btn:hover {
   background-color: #747bff;
+  border: none;
+}
+
+.fieldset {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.btn-snackbar {
+  border-radius: 4px;
+  background-color: #0a0a23;
+  color: #fff;
+  width: 180px;
+  height: 30px;
+}
+
+.btn-snackbar:focus,
+.btn-snackbar:hover {
+  background-color: #747bff;
+  border: none;
 }
